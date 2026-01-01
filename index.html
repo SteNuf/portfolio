@@ -6,14 +6,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Stephan's Frontend Portfolio</title>
   </head>
-  <body class="bg-slate-900 ml-4 mt-18 mr-5">
+  <body class="bg-slate-900 ml-4 mt-20 mr-5">
     <div id="app">
       <div class="hero-section">
-        <div class="hero-section-pic flex items-center w-12">
+        <div class="hero-section-pic flex items-center mb-8">
           <img
             src="public/Bild.jpg"
             alt="Potraitbild Stephan"
-            class="pb-2.5 rounded-full object-cover w-25 h-25 overflow-hidden"
+            class="w-20 h-20 rounded-full object-cover"
           />
         </div>
         <div class="hero-section-writing">
@@ -34,19 +34,43 @@
           </p>
         </div>
         <div class="hero-section-icons mb-16 flex gap-8 mt-10">
-          <div class="hero-section-linkedin">
-            <img src="public/linkedin-logo.png" alt="Linkedin Logo" />
+          <div class="hero-section-linkedin hover: text-amber-500">
+            <a
+              href="https://de.linkedin.com/in/stephan-nufer-2a1836148"
+              target="_blank"
+            >
+              <img src="public/linkedin-logo.png" alt="Linkedin Logo"
+            /></a>
           </div>
           <div class="hero-section-gitHub">
-            <img src="public/gitHub-logo.png" alt="GitHub Logo" class="" />
+            <a href="https://github.com/SteNuf" target="_blank">
+              <img src="public/gitHub-logo.png" alt="GitHub Logo"
+            /></a>
           </div>
-          <div class="hero-section-xing">
-            <img src="public/xing-logo.png" alt="Xing Logo" />
+          <div class="hero-section-xing hover:bg-gray-900">
+            <a href="https://www.xing.com/" target="_blank">
+              <!-- <img src="public/xing-logo.png" alt="Xing Logo" -->
+              />
+              <svg
+                width="48px"
+                height="48px"
+                viewBox="0 0 0.9 0.9"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+                class="bg-yellow-50 hover:bg-amber-700"
+              >
+                <path
+                  d="M0.27 0.36v0.3m0.36 0V0.51a0.12 0.12 0 1 0 -0.24 0V0.66M0.24 0.27h0.06M0.09 0.03h0.72a0.06 0.06 0 0 1 0.06 0.06v0.72a0.06 0.06 0 0 1 -0.06 0.06h-0.72a0.06 0.06 0 0 1 -0.06 -0.06v-0.72a0.06 0.06 0 0 1 0.06 -0.06Z"
+                  stroke="#000000"
+                  stroke-width="0.06"
+                />
+              </svg>
+            </a>
           </div>
         </div>
 
         <button
-          class="hero-section-button bg-amber-500 rounded-lg mb-30 text-white w-45 h-10 flex text-center items-center justify-center"
+          class="hero-section-button bg-amber-500 rounded-lg mb-30 text-white w-45 h-10 flex hover:bg-amber-400 text-center items-center justify-center"
         >
           Projekte ansehen<svg
             xmlns="http://www.w3.org/2000/svg"
