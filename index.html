@@ -6,121 +6,129 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Stephan's Frontend Portfolio</title>
   </head>
-  <body class="bg-slate-900 ml-4 mt-20 mr-5">
-    <div id="app">
-      <div class="hero-section">
-        <div class="hero-section-pic flex items-center mb-8">
-          <img
-            src="public/Bild.jpg"
-            alt="Potraitbild Stephan"
-            class="w-20 h-20 rounded-full object-cover"
-          />
-        </div>
-        <div class="hero-section-writing">
-          <h2 class="hero-section-salutation text-white mb-3 text-lg">
-            Hi, ich bin <span class="font-bold">Stephan.</span>
-          </h2>
-          <h1 class="hero-section-title text-white text-3xl mb-4">
-            Ihr neuer <br />
-            <span
-              class="font-bold bg-linear-to-r from-amber-100 to-amber-600 text-transparent bg-clip-text"
-              >Frontend Developer</span
-            ><span class="text-white text-3xl">.</span>
-          </h1>
 
-          <p class="hero-section-text mb-4 text-slate-400">
-            Mein Name ist Stephan Nufer und ich bin Softwareentwickler mit
-            Schwerpunkt auf den Bereich Frontend Web Development aus der schönen
-            Stadt Leipzig. Ich liebe es neue Dinge zu lernen und Ideen in die
-            Realität zu bringen.
-          </p>
-        </div>
-        <div class="hero-section-icons mb-16 flex gap-8 mt-10">
-          <div class="hero-section-linkedin hover: text-amber-500">
-            <a
-              href="https://de.linkedin.com/in/stephan-nufer-2a1836148"
-              target="_blank"
-            >
-              <svg
-                fill="#000000"
-                width="48px"
-                height="48px"
-                viewBox="0 0 1.44 1.44"
-                xmlns="http://www.w3.org/2000/svg"
-                data-name="Layer 1"
-                class="bg-slate-400 rounded-xl hover:bg-amber-500"
-              >
-                <path
-                  d="M1.228 0.12H0.212a0.087 0.087 0 0 0 -0.088 0.086v1.028A0.087 0.087 0 0 0 0.212 1.32h1.016a0.087 0.087 0 0 0 0.088 -0.086V0.206A0.087 0.087 0 0 0 1.228 0.12M0.485 1.124h-0.18v-0.54h0.18ZM0.395 0.509a0.094 0.094 0 1 1 0 -0.187 0.094 0.094 0 1 1 0 0.187m0.739 0.616h-0.18v-0.29c0 -0.073 -0.026 -0.12 -0.091 -0.12A0.099 0.099 0 0 0 0.771 0.78a0.12 0.12 0 0 0 -0.006 0.044v0.3h-0.18v-0.54h0.18V0.66a0.18 0.18 0 0 1 0.163 -0.09c0.12 0 0.207 0.077 0.207 0.244Z"
-                />
-              </svg>
-            </a>
-          </div>
-
-          <div class="hero-section-xing">
-            <a href="https://www.xing.com/" target="_blank"
-              ><svg
-                width="48px"
-                height="48px"
-                viewBox="0 0 1.2 1.2"
-                xmlns="http://www.w3.org/2000/svg"
-                class="bg-slate-400 rounded-xl hover:bg-amber-500"
-              >
-                <path
-                  x="0"
-                  fill="none"
-                  width="20"
-                  height="20"
-                  d="M0 0H1.2V1.2H0V0z"
-                />
-                <g>
-                  <path
-                    d="M0.444 0.336c-0.006 -0.018 -0.024 -0.024 -0.042 -0.024H0.264c-0.012 0 -0.018 0.006 -0.024 0.018 0 0.006 0 0.012 0.006 0.012l0.096 0.162 -0.15 0.258c-0.006 0.006 -0.006 0.012 0 0.024 0.006 0.006 0.012 0.012 0.018 0.012h0.138c0.018 0 0.03 -0.012 0.036 -0.024 0 0 0.144 -0.252 0.15 -0.264zm0.564 -0.186c0.006 -0.006 0.006 -0.012 0 -0.024 -0.006 -0.006 -0.012 -0.006 -0.018 -0.006h-0.138c-0.018 0 -0.03 0.012 -0.036 0.024 0 0 -0.3 0.528 -0.306 0.546l0.198 0.36c0.006 0.018 0.024 0.024 0.036 0.024h0.138c0.006 0 0.012 0 0.018 -0.006q0.009 -0.009 0 -0.018l-0.192 -0.354z"
-                  />
-                </g>
-              </svg>
-            </a>
-          </div>
-
-          <div class="hero-section-gitHub">
-            <a href="https://github.com/SteNuf" target="_blank">
-              <svg
-                fill="#000000"
-                width="48px"
-                height="48px"
-                viewBox="-0.12 -0.12 1.44 1.44"
-                xmlns="http://www.w3.org/2000/svg"
-                preserveAspectRatio="xMinYMin"
-                class="bg-slate-400 rounded-xl hover:bg-amber-500"
-              >
-                <path
-                  d="M1.133 0.066Q1.067 0 0.974 0H0.225Q0.132 0 0.066 0.066 0 0.132 0 0.225v0.749q0 0.093 0.066 0.159 0.066 0.066 0.159 0.066H0.4q0.017 0 0.026 -0.001a0.03 0.03 0 0 0 0.017 -0.01q0.009 -0.009 0.009 -0.026l0 -0.053q0 -0.051 0 -0.08l-0.018 0.003q-0.017 0.003 -0.043 0.003a0.336 0.336 0 0 1 -0.054 -0.005 0.12 0.12 0 0 1 -0.052 -0.023 0.099 0.099 0 0 1 -0.034 -0.048l-0.008 -0.018a0.198 0.198 0 0 0 -0.025 -0.04q-0.017 -0.022 -0.034 -0.03l-0.005 -0.004a0.06 0.06 0 0 1 -0.01 -0.009 0.042 0.042 0 0 1 -0.007 -0.011q-0.002 -0.006 0.004 -0.009 0.006 -0.004 0.023 -0.004l0.016 0.002q0.016 0.003 0.039 0.019a0.126 0.126 0 0 1 0.038 0.041q0.018 0.032 0.043 0.049 0.025 0.017 0.051 0.017t0.045 -0.004a0.156 0.156 0 0 0 0.035 -0.012q0.007 -0.052 0.038 -0.08a0.54 0.54 0 0 1 -0.08 -0.014 0.318 0.318 0 0 1 -0.073 -0.03 0.21 0.21 0 0 1 -0.063 -0.052q-0.025 -0.031 -0.041 -0.082 -0.016 -0.051 -0.016 -0.117 0 -0.094 0.062 -0.161 -0.029 -0.071 0.005 -0.159 0.023 -0.007 0.067 0.01t0.065 0.03q0.021 0.013 0.033 0.021a0.552 0.552 0 0 1 0.15 -0.02q0.077 0 0.15 0.02l0.03 -0.019a0.42 0.42 0 0 1 0.072 -0.034q0.041 -0.016 0.063 -0.009 0.035 0.088 0.006 0.159 0.062 0.066 0.062 0.161 0 0.066 -0.016 0.117 -0.016 0.051 -0.041 0.082a0.222 0.222 0 0 1 -0.063 0.052q-0.038 0.021 -0.073 0.03a0.54 0.54 0 0 1 -0.08 0.014q0.041 0.035 0.041 0.111v0.187q0 0.013 0.004 0.021a0.022 0.022 0 0 0 0.012 0.011q0.009 0.003 0.015 0.004 0.007 0.001 0.019 0.001h0.175q0.093 0 0.159 -0.066t0.066 -0.159V0.225q0 -0.093 -0.066 -0.159z"
-                />
-              </svg>
-            </a>
-          </div>
-        </div>
-
-        <button
-          class="hero-section-button bg-amber-500 rounded-lg mb-30 text-white w-45 h-10 flex hover:bg-amber-400 text-center items-center justify-center"
-        >
-          Projekte ansehen<svg
-            xmlns="http://www.w3.org/2000/svg"
-            fill="none"
-            viewBox="0 0 24 24"
-            stroke-width="1.5"
-            stroke="currentColor"
-            class="w-5 h-5 ml-1 mr-1"
-          >
-            <path
-              stroke-linecap="round"
-              stroke-linejoin="round"
-              d="M15.75 17.25 12 21m0 0-3.75-3.75M12 21V3"
+  <body class="bg-slate-900 ml-4 mt-20 mr-5 sm:ml-18 lg:ml-4 2xl:ml-100">
+    <div id="app" class="container lg:mt-32 px-9">
+      <div class="hero-section grid lg:grid-cols-2 gap-25">
+        <div>
+          <div class="hero-section-pic flex items-center mb-8">
+            <img
+              src="public/Bild.jpg"
+              alt="Potraitbild Stephan"
+              class="w-20 h-20 rounded-full object-cover 2xl:w-40 2xl:h-40"
             />
-          </svg>
-        </button>
+          </div>
+          <div class="hero-section-writing">
+            <h2
+              class="hero-section-salutation text-white mb-3 text-lg 2xl:text-3xl"
+            >
+              Hi, ich bin <span class="font-bold">Stephan.</span>
+            </h2>
+            <h1
+              class="hero-section-title text-white text-3xl mb-4 2xl:text-6xl"
+            >
+              Ihr neuer <br />
+              <span
+                class="font-bold bg-linear-to-r from-amber-100 to-amber-600 text-transparent bg-clip-text"
+                >Frontend Developer</span
+              ><span class="text-white text-3xl">.</span>
+            </h1>
 
-        <div class="hero-section-techpic mb-19">
+            <p class="hero-section-text mb-4 text-slate-400 2xl:text-2xl mt-9">
+              Mein Name ist Stephan Nufer und ich bin Softwareentwickler mit
+              Schwerpunkt auf den Bereich Frontend Web Development aus der
+              schönen Stadt Leipzig. Ich liebe es neue Dinge zu lernen und Ideen
+              in die Realität zu bringen.
+            </p>
+          </div>
+          <div class="hero-section-icons flex mb-16 gap-8 mt-10">
+            <div class="hero-section-linkedin hover: text-amber-500">
+              <a
+                href="https://de.linkedin.com/in/stephan-nufer-2a1836148"
+                target="_blank"
+              >
+                <svg
+                  fill="#000000"
+                  width="48px"
+                  height="48px"
+                  viewBox="0 0 1.44 1.44"
+                  xmlns="http://www.w3.org/2000/svg"
+                  data-name="Layer 1"
+                  class="bg-slate-400 rounded-xl hover:bg-amber-500"
+                >
+                  <path
+                    d="M1.228 0.12H0.212a0.087 0.087 0 0 0 -0.088 0.086v1.028A0.087 0.087 0 0 0 0.212 1.32h1.016a0.087 0.087 0 0 0 0.088 -0.086V0.206A0.087 0.087 0 0 0 1.228 0.12M0.485 1.124h-0.18v-0.54h0.18ZM0.395 0.509a0.094 0.094 0 1 1 0 -0.187 0.094 0.094 0 1 1 0 0.187m0.739 0.616h-0.18v-0.29c0 -0.073 -0.026 -0.12 -0.091 -0.12A0.099 0.099 0 0 0 0.771 0.78a0.12 0.12 0 0 0 -0.006 0.044v0.3h-0.18v-0.54h0.18V0.66a0.18 0.18 0 0 1 0.163 -0.09c0.12 0 0.207 0.077 0.207 0.244Z"
+                  />
+                </svg>
+              </a>
+            </div>
+
+            <div class="hero-section-xing">
+              <a href="https://www.xing.com/" target="_blank"
+                ><svg
+                  width="48px"
+                  height="48px"
+                  viewBox="0 0 1.2 1.2"
+                  xmlns="http://www.w3.org/2000/svg"
+                  class="bg-slate-400 rounded-xl hover:bg-amber-500"
+                >
+                  <path
+                    x="0"
+                    fill="none"
+                    width="20"
+                    height="20"
+                    d="M0 0H1.2V1.2H0V0z"
+                  />
+                  <g>
+                    <path
+                      d="M0.444 0.336c-0.006 -0.018 -0.024 -0.024 -0.042 -0.024H0.264c-0.012 0 -0.018 0.006 -0.024 0.018 0 0.006 0 0.012 0.006 0.012l0.096 0.162 -0.15 0.258c-0.006 0.006 -0.006 0.012 0 0.024 0.006 0.006 0.012 0.012 0.018 0.012h0.138c0.018 0 0.03 -0.012 0.036 -0.024 0 0 0.144 -0.252 0.15 -0.264zm0.564 -0.186c0.006 -0.006 0.006 -0.012 0 -0.024 -0.006 -0.006 -0.012 -0.006 -0.018 -0.006h-0.138c-0.018 0 -0.03 0.012 -0.036 0.024 0 0 -0.3 0.528 -0.306 0.546l0.198 0.36c0.006 0.018 0.024 0.024 0.036 0.024h0.138c0.006 0 0.012 0 0.018 -0.006q0.009 -0.009 0 -0.018l-0.192 -0.354z"
+                    />
+                  </g>
+                </svg>
+              </a>
+            </div>
+
+            <div class="hero-section-gitHub">
+              <a href="https://github.com/SteNuf" target="_blank">
+                <svg
+                  fill="#000000"
+                  width="48px"
+                  height="48px"
+                  viewBox="-0.12 -0.12 1.44 1.44"
+                  xmlns="http://www.w3.org/2000/svg"
+                  preserveAspectRatio="xMinYMin"
+                  class="bg-slate-400 rounded-xl hover:bg-amber-500"
+                >
+                  <path
+                    d="M1.133 0.066Q1.067 0 0.974 0H0.225Q0.132 0 0.066 0.066 0 0.132 0 0.225v0.749q0 0.093 0.066 0.159 0.066 0.066 0.159 0.066H0.4q0.017 0 0.026 -0.001a0.03 0.03 0 0 0 0.017 -0.01q0.009 -0.009 0.009 -0.026l0 -0.053q0 -0.051 0 -0.08l-0.018 0.003q-0.017 0.003 -0.043 0.003a0.336 0.336 0 0 1 -0.054 -0.005 0.12 0.12 0 0 1 -0.052 -0.023 0.099 0.099 0 0 1 -0.034 -0.048l-0.008 -0.018a0.198 0.198 0 0 0 -0.025 -0.04q-0.017 -0.022 -0.034 -0.03l-0.005 -0.004a0.06 0.06 0 0 1 -0.01 -0.009 0.042 0.042 0 0 1 -0.007 -0.011q-0.002 -0.006 0.004 -0.009 0.006 -0.004 0.023 -0.004l0.016 0.002q0.016 0.003 0.039 0.019a0.126 0.126 0 0 1 0.038 0.041q0.018 0.032 0.043 0.049 0.025 0.017 0.051 0.017t0.045 -0.004a0.156 0.156 0 0 0 0.035 -0.012q0.007 -0.052 0.038 -0.08a0.54 0.54 0 0 1 -0.08 -0.014 0.318 0.318 0 0 1 -0.073 -0.03 0.21 0.21 0 0 1 -0.063 -0.052q-0.025 -0.031 -0.041 -0.082 -0.016 -0.051 -0.016 -0.117 0 -0.094 0.062 -0.161 -0.029 -0.071 0.005 -0.159 0.023 -0.007 0.067 0.01t0.065 0.03q0.021 0.013 0.033 0.021a0.552 0.552 0 0 1 0.15 -0.02q0.077 0 0.15 0.02l0.03 -0.019a0.42 0.42 0 0 1 0.072 -0.034q0.041 -0.016 0.063 -0.009 0.035 0.088 0.006 0.159 0.062 0.066 0.062 0.161 0 0.066 -0.016 0.117 -0.016 0.051 -0.041 0.082a0.222 0.222 0 0 1 -0.063 0.052q-0.038 0.021 -0.073 0.03a0.54 0.54 0 0 1 -0.08 0.014q0.041 0.035 0.041 0.111v0.187q0 0.013 0.004 0.021a0.022 0.022 0 0 0 0.012 0.011q0.009 0.003 0.015 0.004 0.007 0.001 0.019 0.001h0.175q0.093 0 0.159 -0.066t0.066 -0.159V0.225q0 -0.093 -0.066 -0.159z"
+                  />
+                </svg>
+              </a>
+            </div>
+          </div>
+
+          <button
+            class="hero-section-button bg-amber-500 rounded-lg mb-5 text-white w-45 h-10 flex hover:bg-white hover:text-amber-500 text-center items-center justify-center"
+          >
+            Projekte ansehen<svg
+              xmlns="http://www.w3.org/2000/svg"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke-width="1.5"
+              stroke="currentColor"
+              class="w-5 h-5 ml-1 mr-1"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                d="M15.75 17.25 12 21m0 0-3.75-3.75M12 21V3"
+              />
+            </svg>
+          </button>
+        </div>
+        <div
+          class="hero-section-techpic mb-19 flex items-center justify-center"
+        >
           <img
             src="public/tech-logo.png"
             alt="Fontend Technologien"
