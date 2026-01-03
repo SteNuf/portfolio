@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" class="scroll-smooth">
   <head>
     <meta charset="UTF-8" />
     <link rel="icon" type="image/svg+xml" href="/vite.svg" />
@@ -7,9 +7,9 @@
     <title>Stephan's Frontend Portfolio</title>
   </head>
 
-  <body class="bg-slate-900 ml-4 mt-20 mr-5 sm:ml-18 lg:ml-4 2xl:ml-100">
+  <body class="bg-slate-900 ml-2 mt-20 mr-4 sm:ml-18 lg:ml-4 2xl:ml-100">
     <div id="app" class="container lg:mt-32 px-9">
-      <div class="hero-section grid lg:grid-cols-2 gap-25">
+      <div class="hero-section grid lg:grid-cols-2 gap-20">
         <div>
           <div class="hero-section-pic flex items-center mb-8">
             <img
@@ -36,12 +36,14 @@
 
             <p class="hero-section-text mb-4 text-slate-400 2xl:text-2xl mt-9">
               Mein Name ist Stephan Nufer und ich bin Softwareentwickler mit
-              Schwerpunkt auf den Bereich Frontend Web Development aus der
-              schönen Stadt Leipzig. Ich liebe es neue Dinge zu lernen und Ideen
-              in die Realität zu bringen.
+              Schwerpunkt auf dem Bereich Frontend Web Development aus der
+              schönen Stadt Leipzig. Ich liebe es, neue Dinge zu lernen und
+              Ideen in die Realität zu bringen.
             </p>
           </div>
-          <div class="hero-section-icons flex mb-16 gap-8 mt-10">
+          <div
+            class="hero-section-icons flex mb-16 gap-8 mt-10 2xl:gap-15 2xl:mt-12"
+          >
             <div class="hero-section-linkedin hover: text-amber-500">
               <a
                 href="https://de.linkedin.com/in/stephan-nufer-2a1836148"
@@ -107,24 +109,27 @@
             </div>
           </div>
 
-          <button
-            class="hero-section-button bg-amber-500 rounded-lg mb-5 text-white w-45 h-10 flex hover:bg-white hover:text-amber-500 text-center items-center justify-center"
-          >
-            Projekte ansehen<svg
-              xmlns="http://www.w3.org/2000/svg"
-              fill="none"
-              viewBox="0 0 24 24"
-              stroke-width="1.5"
-              stroke="currentColor"
-              class="w-5 h-5 ml-1 mr-1"
+          <a href="#projects" class="inline-block w-fit">
+            <button
+              type="button"
+              class="hero-section-button bg-amber-500 rounded-lg mb-5 text-white w-45 h-10 flex hover:bg-white hover:text-amber-500 text-center items-center justify-center"
             >
-              <path
-                stroke-linecap="round"
-                stroke-linejoin="round"
-                d="M15.75 17.25 12 21m0 0-3.75-3.75M12 21V3"
-              />
-            </svg>
-          </button>
+              Projekte ansehen<svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke-width="1.5"
+                stroke="currentColor"
+                class="w-5 h-5 ml-1 mr-1"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  d="M15.75 17.25 12 21m0 0-3.75-3.75M12 21V3"
+                />
+              </svg>
+            </button>
+          </a>
         </div>
         <div
           class="hero-section-techpic mb-19 flex items-center justify-center"
@@ -137,7 +142,28 @@
         </div>
       </div>
 
-      <div class="project-section bg-pink-900">project-section</div>
+      <div
+        class="project-section flex justify-center mt-4 flex-col"
+        id="projects"
+      >
+        <div
+          class="project-title text-white justify-center text-center text-3xl p-1 mb-10"
+        >
+          <h2 class="font-bold">Meine Projekte</h2>
+
+          <p class="project-subtitle text-slate-400 text-center text-base mt-4">
+            Hier sind einige Auszüge aus meiner Arbeit, sodass Sie sich ein Bild
+            meiner Fähigkeiten und Erfahrungen machen können.
+          </p>
+        </div>
+        <div class="project-weather-app text-slate-400 flex flex-col">
+          <img src="" alt="Bild von der Wetter App" />
+          <div class="project-weather-title text-white text-3xl font-bold mt-5">
+            Moderne Wetter App
+          </div>
+          <a href="" class="font-medium">username.github.io/wetter-app</a>
+        </div>
+      </div>
       <div class="contact-section bg-pink-400">contact-section</div>
       <footer class="footer-section bg-orange-800">Footer</footer>
     </div>
